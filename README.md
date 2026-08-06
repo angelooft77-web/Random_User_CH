@@ -20,12 +20,12 @@ Esta aplicacion se conecta ah la api de random.user
 
 Comando `Procfile` usado:
 
-`web: gunicorn randomuser_app.randomuser_app.app:app`
+`web: gunicorn app:app`
 
 Si deseas probarlo localmente, instala dependencias y ejecuta:
 
 ```
 pip install -r requirements.txt
-gunicorn randomuser_app.randomuser_app.app:app
+gunicorn app:app
 ```
 
